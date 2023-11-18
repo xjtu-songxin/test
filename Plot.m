@@ -18,6 +18,7 @@ function Plot (Om, t, frame)
     ylabel('$y$', 'interpreter', 'latex', 'fontsize', 12, 'Rotation', 1);
     xlabel(cc, '$\omega(x,y,t)$', 'interpreter', 'latex', 'fontsize', 12, 'Rotation', 90);
     view([0 90]);
+    test
 
     title (['Vorticity distribution at t = ',num2str(t,'%4.2f')], 'interpreter', 'latex', 'fontsize', 12);
 
